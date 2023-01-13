@@ -21,6 +21,7 @@ a:hover{
 ul{
     list-style: none;
     padding-left: 0;
+    text-align: center;
 }
 button{
     font-size: 1.5em;
@@ -103,8 +104,12 @@ header a{
     min-height: 45%;
     padding: 0px 10px;
 }
-/* configuraciones de footer */
+/* configuraciones de habilidades */
+#habilidades{
+    height: 100vh;
+}
 #habilidades .container{
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,17 +119,18 @@ header a{
     background-image:url(imgs/code.jpg);
         background-size: cover;
         background-position: center center;
-        height: 400px;
+        height: 50%;
         width: 100%;
 }
 #habilidades .list-container{
     display: flex;
     flex-direction: column;
-    text-align: center;
     align-items: center;
     justify-content: center;
+    height: 50%;
     width: 100%;
 }
+/* configuraciones de footer */
 footer{
     padding: 2vh;
     background-color: seagreen; 

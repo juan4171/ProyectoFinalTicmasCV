@@ -10,6 +10,7 @@ fetch(url)
         document.getElementById("introduccion").innerHTML = ("Hola, mi nombre es " + nombre + " y esta es mi presentacion:");
         document.getElementById("titulo").innerHTML = (nombre + "<br>Curriculum vitae") ;
         document.getElementById("cara").src=data.picture.large;
+        document.getElementById("parrafo-introduccion").innerHTML= ("Soy un estudiante avanzado de la carrera Licenciatura en informatica en la facultad de informática de la Universidad Nacional de " + data.location.city + ", " + data.location.state + ". Actualmente estoy interesado en tener mi primera experiencia laboral como programador/developer para sumar nuevos conocimientos y afianzar los que ya tengo.");
         console.log(document.getElementById("cara"))
     });
 ;
