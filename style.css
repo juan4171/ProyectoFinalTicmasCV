@@ -24,11 +24,11 @@ ul{
     text-align: center;
 }
 button{
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: bold;
-    padding: 15px 20px;
+    padding: 0px 20px;
     border-radius: 10px;
-    border: 2px solid rgba(0, 0, 0 , 0.5);
+    border: 1px solid rgba(0, 0, 0 , 0.5);
     box-shadow: 2px 2px 7px rgba(0, 0, 0 , 0.5);
     color: white;
     background-color: seagreen;
@@ -116,10 +116,10 @@ header a{
     justify-content: center;
     align-items: center;
     color: white;
-    padding: 0px 15px;
+    padding: 0px 20px;
 
 }
-/* #habilidades .img-container{
+/* #habilidades .img-container{ TODO 1
     background-image:url(imgs/code.jpg);
         background-size: cover;
         background-position: center center;
@@ -134,9 +134,58 @@ header a{
     height: 50%;
     width: 100%;
 }
+/* configuraciones de seccion proyectos */
+#proyectos{
+    text-align: center;
+    color: white;
+}
+/* #proyectos .container{
+    display: flex;
+    flex-direction: column;
+} */
+/*#nuestros-cursos .container{
+    padding: 15vh 15px;  por ahora TODO 
+}*/
+
+/* #proyectos p{
+    display: none;
+} */
+
+#proyectos img{ /* TODO estan bien elegidas asi? */
+    width: 77%;
+}
+
+#proyectos .carta{
+    align-items: center;
+    background-color: black;
+    padding: 50px 15px;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+.carta:first-child{
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ),url(imgs/les-paul-tocando.jpg);
+}
+.carta:nth-child(2){
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ),url(imgs/les-paul-tocando.jpg);
+}
+.carta:nth-child(3){
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ),url(imgs/les-paul-tocando.jpg);
+}
 /* configuraciones de footer */
 footer{
-    padding: 15px;
     background-color: seagreen; 
 }
 footer .container{
@@ -144,12 +193,13 @@ footer .container{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 30px;
 }
 footer a{
     text-align: center;
 }
 
-@media (min-width: 740px){
+@media (min-width: 75.0px){
     header .container{
         flex-direction: row;
         justify-content: space-between;
@@ -183,5 +233,17 @@ footer a{
         width: 50%;
         height: 100%;
         align-items: center;
+    }
+    #proyectos .container{
+        display: flex;
+        flex-direction: column;
+    }
+    #proyectos .carta-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #proyectos .carta{
+        width: 32.5%;
     }
 }

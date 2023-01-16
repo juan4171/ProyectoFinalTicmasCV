@@ -20,8 +20,8 @@ llevar a la práctica todo lo que fuimos trabajando a lo largo de los módulos.
 El CV comprende información personal, experiencia y habilidades.  -->
 <body>
     <header>
-        <div class="container"> <!-- TODO esto podria ser un h? -->
-            <p id="titulo"></p>
+        <div class="container"> 
+            <p id="titulo"></p> <!-- TODO esto podria ser un h? -->
             <nav>
                 <a href="#habilidades">Habilidades</a>
                 <a href="#proyectos">Proyectos</a>
@@ -44,7 +44,7 @@ El CV comprende información personal, experiencia y habilidades.  -->
     </section>
     <section id="habilidades">
         <div class="container">
-            <div class="img-container"></div>
+            <!-- <div class="img-container"></div> TODO 1 se podria eliminar el list container y usar solo el container--> 
             <div class="list-container">
                 <h2>Habilidades / conocimientos</h2>
                 <ul>
@@ -56,6 +56,31 @@ El CV comprende información personal, experiencia y habilidades.  -->
                     <li>GIT Y GITHUB</li>
                     <li>LINUX Y VIRTUALBOX</li>
                 </ul>
+            </div>
+        </div>
+    </section>
+    <section id="proyectos">
+        <div class="container">
+            <h2>Proyectos laborales realizados</h2>
+            <div class="carta-container"> <!-- se ponen los divs carta dentro de este div para que .carta:nth-child(x) funque -->
+                <div class="carta">
+                    <h3>Proyecto "HTML"</h3>
+                    <button>+ info</button>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dicta at aperiam hic quod doloribus voluptatem nisi iure atque, cupiditate enim cum molestiae molestias tempora ea, dolore magnam! Praesentium, ea!</p>
+                    <img src="imgs/html.jpg" alt="Imagen de proyecto HTML">
+                </div>
+                <div class="carta">
+                    <h3>Proyecto "JAVA"</h3>
+                    <button>+ info</button>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dicta at aperiam hic quod doloribus voluptatem nisi iure atque, cupiditate enim cum molestiae molestias tempora ea, dolore magnam! Praesentium, ea!</p>
+                    <img src="imgs/java.png" alt="Imagen de proyecto JAVA">
+                </div>
+                <div class="carta">
+                    <h3>Proyecto "PYTHON"</h3>
+                    <button>+ info</button>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dicta at aperiam hic quod doloribus voluptatem nisi iure atque, cupiditate enim cum molestiae molestias tempora ea, dolore magnam! Praesentium, ea!</p>
+                    <img src="imgs/python.png" alt="Imagen de proyecto PYTHON">
+                </div>
             </div>
         </div>
     </section>
