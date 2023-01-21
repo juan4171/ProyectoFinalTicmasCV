@@ -15,34 +15,34 @@ h1{
     margin: 15px 0px 15px 0px;
 }
 h2{
-    font-size: 1.7em;
+    font-size: 1.75em;
     margin: 15px 0px 15px 0px;
 }
 h3{
     font-size: 1.25em;
     margin: 15px 0px 15px 0px;
 }
-/* 
 p{
     font-size: 1.1em;
-} */
+}
 a{ 
     color:white;
     text-decoration: none;
     font-weight: bold;
 }
 a:hover{
-    color: black;
+    color: #2E2E2E;
 }
 ul{
     list-style: none;
     padding-left: 0;
+    font-size: 1.2em;
 }
 button{
     font-size: 1.25em;
     font-weight: bold;
     padding: 0px 20px;
-    border-radius: 30px;
+    border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.5);
     color: white;
     background-color: seagreen;
@@ -82,6 +82,7 @@ header nav{
 header a{
     padding: 5px 10px;
 }
+
 /* configuraciones de presentacion primera seccion*/
 #presentacion{
     display: flex;
@@ -113,9 +114,10 @@ header a{
     justify-content: center;
     width: 100%;
 }
-/* configuraciones de habilidades */
+
+/* configuraciones de seccion habilidades */
 #habilidades{
-    height: 50vh;
+    height: 45vh;
 }
 #habilidades .container{
     background-image:linear-gradient(
@@ -135,20 +137,7 @@ header a{
     text-align: center;
     padding: 0px 20px;
 }
-/* #habilidades .img-container{ TODO 1
-    background-image:url(imgs/code.jpg);
-        background-size: cover;
-        background-position: center center;
-        height: 50%;
-        width: 100%;
-} */
-#habilidades .list-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
+
 /* configuraciones de seccion proyectos */
 #proyectos{
     text-align: center;
@@ -158,16 +147,6 @@ header a{
     display: flex;
     flex-direction: column;
 }
-
-#proyectos p{
-    display: none;
-}
-
-#proyectos img{ /* TODO estan bien elegidas asi? */
-    width: 77%;
-    margin: 10px 0px;
-}
-
 #proyectos .carta{
     display: flex;
     flex-direction: column;
@@ -175,10 +154,51 @@ header a{
     align-items: center;
     background-color: black;
     padding: 10px 20px;
-    margin: 20px 0px;
-    border-radius: 30px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+}
+#proyectos p{
+    display: none;
+}
+#proyectos img{
+    width: 77%;
+    margin: 10px 0px;
 }
 
+/* configuraciones de seccion contacto */
+#contacto{
+    height: 45vh;
+}
+#contacto .container{
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ),url(imgs/code.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 100%;
+        width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0px 20px;
+}
+#listas-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#redes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
 
 /* configuraciones de footer */
 footer{
@@ -220,8 +240,8 @@ footer a{
         height: 100%;
     }
     #cara{
-        width: 90%;
-        max-height: 90%;
+        width: 95%;
+        max-height: 95%;
         object-fit: contain;
     }
     .text-container{
@@ -236,5 +256,12 @@ footer a{
     }
     #proyectos .carta{
         width: 32.5%;
+    }
+    #listas-container{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #redes{
+        width: 50%;
     }
 }
