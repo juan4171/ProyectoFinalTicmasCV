@@ -1,13 +1,10 @@
-
 /* obtengo datos de una persona ficticia con la api de randomuser */
 let url = "https://randomuser.me/api/?inc=gender,dob,name,email,phone,picture,phone,location,nat&nat=us&gender=male&noinfo&results=1"
 fetch(url)
     .then(Response => Response.json())
     .then(json => {
-        //console.log(json)
         let data = json.results[0];
-        let nombre = (data.name.first + " " + data.name.last);
-        // let nombre = (`${data.name.first} ${data.name.last}`);
+        let nombre = (`${data.name.first} ${data.name.last}`);
         let location = (`${data.location.city}, ${data.location.state}`);
         document.getElementById("introduccion").innerHTML = (`Hola, mi nombre es ${nombre} y este es mi Curriculum vitae:`);
         document.getElementById("titulo").innerHTML = (`${nombre}<br>Curriculum`);

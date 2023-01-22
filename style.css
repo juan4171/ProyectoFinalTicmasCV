@@ -39,11 +39,10 @@ ul{
     font-size: 1.1em;
 }
 button{
-    font-size: 1.25em;
+    font-size: 1.2em;
     font-weight: bold;
-    padding: 0px 20px;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 2px 25px;
+    border-radius: 10px;
     color: white;
     background-color: seagreen;
     margin: 10px;
@@ -51,7 +50,7 @@ button{
 button:hover{
     background-color: rgb(32, 91, 58);
 }
-.container{ /* al contenido de mi pag despues de los 1400px sera margen */
+.container{ /* al contenido de la pag despues de los 1400px sera margen */
     max-width: 1400px;
     margin: auto;
 }
@@ -70,10 +69,10 @@ header .container{
 }
 #titulo{
     margin: 0;
-    padding: 5px 30px;
-    font-weight: bold;
-    color: white;
     font-size: 1.9em;
+    font-weight: bold;
+    padding: 5px 30px;
+    color: white;
     text-align: center;
 }
 header nav{
@@ -199,7 +198,7 @@ header a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 /* configuraciones de footer */
@@ -212,8 +211,6 @@ footer .container{
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-}
-footer a{
     text-align: center;
 }
 
@@ -265,7 +262,7 @@ footer a{
         margin: 15px 0px 15px 0px;
     }
     #redes{
-        width: 60%;
+        width: 50%;
         justify-content: space-between;
     }
 }
