@@ -7,9 +7,7 @@ Proyecto relizado en el contexto del proyecto final del curso: Introducción al 
 Enunciado del proyecto: Imaginate que sos un desarrollador recién incorporado en un nuevo emprendimiento tecnológico. En tu primera tarea en la empresa, te solicitan que realices una página web que posea un curriculum vitae. El CV comprende información personal, experiencia y habilidades.  La creación de este cv onlinte te permitirá llevar a la práctica todo lo que fuimos trabajando a lo largo de los módulos.
 ## Screenshots
 
-![Alt text](imgs/sc1.jpeg?raw=true "Screemshot de la app 1")
-![Alt text](imgs/sc2.jpeg?raw=true "Screemshot de la app 2")
-![Alt text](imgs/sc3.jpeg?raw=true "Screemshot de la app 3")
+![Alt text](imgs/screenshotsCollage.jpg?raw=true "Screenshots de la app")
 ## Tecnologias utilizadas en este proyecto
 
 HTML, CSS, JS, Random user generator API, Font Awesome, Readme.so, Ziteboard, Git, Github.
