@@ -261,11 +261,11 @@ footer a{
     }
     #listas-container{
         flex-direction: row;
-        justify-content: space-evenly;
-        margin: 10px 0px 10px 0px;
+        justify-content: space-around;
+        margin: 15px 0px 15px 0px;
     }
     #redes{
-        width: 35%;
-        justify-content: space-around;
+        width: 60%;
+        justify-content: space-between;
     }
 }
