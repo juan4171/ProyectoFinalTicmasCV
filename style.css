@@ -36,7 +36,7 @@ a:hover{
 ul{
     list-style: none;
     padding-left: 0;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 button{
     font-size: 1.25em;
@@ -184,13 +184,15 @@ header a{
     justify-content: center;
     align-items: center;
     color: white;
-    padding: 0px 20px;
+    padding: 0px 15px;
+    text-align: center;
 }
 #listas-container{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: left;
 }
 #redes{
     width: 100%;
@@ -259,9 +261,11 @@ footer a{
     }
     #listas-container{
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        margin: 10px 0px 10px 0px;
     }
     #redes{
-        width: 50%;
+        width: 35%;
+        justify-content: space-around;
     }
 }
