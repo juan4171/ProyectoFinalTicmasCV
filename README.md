@@ -1,5 +1,5 @@
 
-# Proyecto final del curso Introducción al desarrollo Front-end (Ticmas Academy)
+# Proyecto final del curso Introducción al desarrollo Front-end (Ticmas Academy).
 
 Este proyecto es una pagina web de un curriculum vitae que utiliza informacion personal de una persona random generada por la API "random user generator".
 Proyecto relizado en el contexto del proyecto final del curso: Introducción al desarrollo Front-end (Ticmas Academy).
@@ -8,10 +8,10 @@ Enunciado del proyecto: Imaginate que sos un desarrollador recién incorporado e
 ## Screenshots
 
 ![Alt text](imgs/screenshotsCollage.jpg?raw=true "Screenshots de la app")
-## Tecnologias utilizadas en este proyecto
+## Tecnologias utilizadas en este proyecto.
 
-HTML, CSS, JS, Random user generator API, Font Awesome, Readme.so, Ziteboard, Git, Github.
-##  Link / instalacion
+HTML, CSS, JS, Git, Github, Ziteboard, Random user generator API, Google fonts, Font Awesome, Readme.so, Favicon.io.
+##  Link / instalacion.
 
 Clone the project
 
@@ -24,7 +24,7 @@ Link del proyecto Github pages
 ```bash
   https://juan4171.github.io/ProyectoFinalTicmasCV/
 ```
-## 🔗 Links
+## 🔗 Links.
 
 - [Link del proyecto Github pages](https://juan4171.github.io/ProyectoFinalTicmasCV/ "https://juan4171.github.io/ProyectoFinalTicmasCV/")
 - [Programa del curso Ticmas](https://www.argentina.gob.ar/sites/default/files/introduccion_primeros_pasos_en_front-end_-_ticmas_academy.pdf "https://www.argentina.gob.ar/sites/default/files/introduccion_primeros_pasos_en_front-end_-_ticmas_academy.pdf")
